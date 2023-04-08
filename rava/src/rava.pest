@@ -1,0 +1,4 @@
+class_name = { ASCII_ALPHA+ }
+class = _{ "class " ~ class_name ~ "{" ~ "}" }
+
+WHITESPACE = _{ " " | "\n" }
